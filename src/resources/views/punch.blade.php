@@ -19,5 +19,6 @@
             <input type="submit" class="form__input" name="rest_out" value="休憩終了"  {{ $status == 2 ? '' : 'disabled' }}>
         </form>
     </div>
+    <div>test_branch_E</div>
 </div>
 @endsection

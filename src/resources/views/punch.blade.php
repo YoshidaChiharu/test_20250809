@@ -20,5 +20,6 @@
         </form>
     </div>
     <div>test_branch_B</div>
+    <div>test_branch_A</div>
 </div>
 @endsection

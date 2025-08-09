@@ -6,7 +6,6 @@
 
 @section('content')
 <div class="container">
-    <div>test_branch_F</div>
     <div class="user-list">
         <table class="user-list__table">
             <tr>

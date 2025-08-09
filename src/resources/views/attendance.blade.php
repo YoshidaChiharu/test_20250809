@@ -6,7 +6,6 @@
 
 @section('content')
 <div class="container">
-    <div>test_develop</div>
     <div class="selector">
         <form action="/attendance" method="get">
             <button class="selector__prev" name="prev" value="{{ $date_prev }}"><</button>

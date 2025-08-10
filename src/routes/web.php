@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AttendanceController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\TestController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +28,6 @@ Route::middleware('auth')->group(function () {
     Route::get('/user_list', [AttendanceController::class, 'showUserList']);
     Route::get('/user_attendance_list/{user_id}', [AttendanceController::class, 'showUserAttendanceList'])->name('get.user_attendance_list');
 });
+
+// テスト用
+Route::get('/test', [TestController::class, 'index'])->name('test');

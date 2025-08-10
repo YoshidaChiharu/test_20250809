@@ -6,7 +6,6 @@
 
 @section('content')
 <div class="container">
-    <div>test_branch_03</div>
     <div class="container__heading">{{$name}}さんお疲れ様です！</div>
     <div class="container__content">
         <div class="message">
